@@ -1,4 +1,4 @@
-import { useCustomization } from "../contexts/Customization";
+import { useCustomization } from "../assets/Customization";
 
 const Configurator = () => {
     const { ears, setEars, visor, setVisor, helmetColors, helmetColor, setHelmetColor } = useCustomization();

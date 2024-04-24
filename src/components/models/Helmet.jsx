@@ -4,7 +4,7 @@ Command: npx gltfjsx@6.2.16 public/models/helmet.glb
 */
 
 import { useGLTF } from "@react-three/drei";
-import { useCustomization } from "../../contexts/Customization";
+import { useCustomization } from "../../assets/Customization";
 import { Color } from "three";
 
 const Helmet = (props) => {

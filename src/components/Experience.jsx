@@ -3,7 +3,7 @@ import {
     PresentationControls,
     Stage,
 } from "@react-three/drei";
-import { useCustomization } from "../contexts/Customization";
+import { useCustomization } from "../assets/Customization";
 import Helmet from "./models/Helmet";
 import YesEar from "./models/YesEar";
 import NoEar from "./models/NoEar";

@@ -4,7 +4,7 @@ Command: npx gltfjsx@6.2.16 public/models/yes-ear.glb -o src/components/yesEar.j
 */
 
 import { useGLTF } from "@react-three/drei";
-import { useCustomization } from "../../contexts/Customization";
+import { useCustomization } from "../../assets/Customization";
 import { Color } from "three";
 
 const YesEar = (props) => {

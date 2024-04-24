@@ -4,7 +4,7 @@ Command: npx gltfjsx@6.2.16 public/models/battery-pack.glb -o src/components/bat
 */
 
 import { useGLTF } from "@react-three/drei";
-import { useCustomization } from "../../contexts/Customization";
+import { useCustomization } from "../../assets/Customization";
 import { Color } from "three";
 
 const BatteryPack = (props) => {

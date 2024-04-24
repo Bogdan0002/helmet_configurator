@@ -2,7 +2,7 @@ import "./App.css";
 import { Canvas } from "@react-three/fiber";
 import Experience from "./components/Experience";
 import Configurator from "./components/Configurator";
-import { CustomizationProvider } from "./contexts/Customization";
+import { CustomizationProvider } from "./assets/Customization";
 import './index.css';
 import './App.css';
 
